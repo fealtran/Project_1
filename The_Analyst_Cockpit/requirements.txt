@@ -1,0 +1,52 @@
+# ==============================================================================
+# DEPENDÊNCIAS DO PROJETO | THE ANALYST'S COCKPIT (v2)
+# ==============================================================================
+# Use o comando `pip install -r requirements.txt` para instalar todas as
+# bibliotecas listadas abaixo.
+# ------------------------------------------------------------------------------
+
+### Framework Web e Template Engine ###
+# Framework principal para a criação da aplicação web interativa
+streamlit
+# Engine para criação de templates, dependência para relatórios
+Jinja2
+
+### Análise de Dados e Computação Científica ###
+# Biblioteca para manipulação e análise de dados, especialmente DataFrames
+pandas
+# Biblioteca fundamental para computação numérica com Python
+numpy
+# Biblioteca para computação científica e técnica
+scipy
+# Biblioteca para machine learning e análise preditiva
+scikit-learn
+
+### Obtenção de Dados Financeiros ###
+# Biblioteca para baixar dados de mercado (ações, etc.) do Yahoo Finance
+yfinance
+# Biblioteca para obter dados financeiros do Investing.com
+investpy
+# Biblioteca para acessar dados de séries temporais do Banco Central do Brasil
+python-bcb
+# Biblioteca para fazer requisições HTTP, usada para acessar APIs e dados da web
+requests
+
+### Web Scraping e Parsing ###
+# Biblioteca para extrair dados de arquivos HTML e XML (web scraping)
+beautifulsoup4
+# Parser eficiente para arquivos XML e HTML
+lxml
+
+### Visualização de Dados e Gráficos ###
+# Biblioteca para a criação de gráficos interativos e de alta qualidade
+plotly
+# Biblioteca para exportar gráficos do Plotly para imagens estáticas (ex: PDF)
+kaleido
+
+### Geração de Relatórios ###
+# Biblioteca para a criação e manipulação de arquivos PDF
+fpdf2
+
+### Ferramentas de Ambiente (Colab/Cloud) ###
+# Cria túneis seguros para expor serviços locais (como o Streamlit) na internet
+pyngrok
